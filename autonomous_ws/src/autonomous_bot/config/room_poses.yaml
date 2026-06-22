@@ -1,0 +1,35 @@
+# room_poses.yaml (fixed)
+rooms:
+  # ---- Front-of-house / admin ----
+  reception:             {x: -3.881,    y: -7.143,    yaw: -0.03}
+
+  # ---- Inpatient wards ----
+  ward_1:                {x: -2.832,    y: -10.733,   yaw: -0.14}
+  ward_2:                {x: -4.756,    y: -10.804,   yaw: -3.07}
+  ward_3:                {x: -7.103,    y: -10.721,   yaw: -3.06}
+  ward_4:                {x: -9.523,    y: -10.784,   yaw: -3.10}
+  ward_5:                {x: -12.401,   y: -10.854,   yaw: -3.14}
+
+  # ---- Logistics / supply ----
+  storage:               {x: -17.486,   y: -11.017,   yaw:  3.05}
+  logistics_and_central_supply: {x: -17.045, y: -13.514, yaw: -3.14}
+
+  # ---- Emergency / acute ----
+  er1:                   {x: -17.010,   y: -3.382,    yaw: -0.02}
+  er2:                   {x: -17.002,   y: -0.681,    yaw: -0.03}
+  nurse_station:         {x: -16.775,   y:  3.145,    yaw: -0.01}
+
+  # ---- Clinics / diagnostics ----
+  doctor_consultation_1: {x: -13.927,   y: -7.848,    yaw: -3.07}
+  doctor_consultation_2: {x: -13.151,   y: -4.025,    yaw: -3.08}
+  pharmacy:              {x: -9.498,    y: -2.490,    yaw: -0.07}
+
+  # *** FIXED FROM AMCL ***
+  radiology_lab:         {x: -8.162024, y:  2.055127,  yaw:  3.080227}
+  pathology_lab:         {x: -17.929168, y: 1.785668,  yaw:  1.693377}
+  # *** END FIXES ***
+
+  blood_sample_lab:      {x: -6.472,    y: -7.611,    yaw:  0.07}
+
+  # ---- Robot base ----
+  robot_home:            {x: 0.0,       y: 0.0,       yaw:  0.0}
